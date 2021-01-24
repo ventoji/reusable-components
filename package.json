@@ -2,7 +2,11 @@
   "name": "reusable-components",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ventoji.github.io/reusable-components/",
+  "homepage": "http://ventoji.github.io/reusable-components",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ventoji/reusable-components"
+  },
   "dependencies": {
     "@babel/core": "7.12.3",
     "@babel/plugin-syntax-jsx": "^7.12.1",
@@ -84,8 +88,8 @@
     "gen:docs-watch": "npm run gen:docs -- --watch",
     "build:docs": "node scripts/build.js",
     "test": "node scripts/test.js  --env=jsdom",
-    "predeploy:docs": "npm run build:docs",
-    "deploy:docs": "gh-pages -d build"
+    "predeploy:docs": "yarn build:docs",
+    "deploy:docs": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
