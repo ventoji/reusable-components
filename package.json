@@ -1,6 +1,6 @@
 {
   "name": "ventoji-components-build-template",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "./lib/index.js",
   "private": true,
   "engines": {
@@ -11,7 +11,9 @@
     "email": "vento.ji@gmail.com",
     "url": "http://www.ventoji.es/"
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "components",
     "react",
