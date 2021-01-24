@@ -1,5 +1,5 @@
 import React from 'react';
-import Label from 'reusable-components/Label';
+import Label from 'ventoji-components/Label';
 
 /** Required label */
 export default function ExampleRequired() {

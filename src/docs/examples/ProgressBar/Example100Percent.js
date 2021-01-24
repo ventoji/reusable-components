@@ -1,5 +1,5 @@
 import React from 'react';
-import ProgressBar from 'reusable-components/ProgressBar';
+import ProgressBar from 'ventoji-components/ProgressBar';
 
 /** 100% progress */
 export default function Example100Percent() {

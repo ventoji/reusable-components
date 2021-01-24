@@ -1,10 +1,12 @@
-[![Build Status](https://travis-ci.com/ventoji/reusable-components.svg?branch=master)](https://travis-ci.com/ventoji/reusable-components)
+[![Build Status](https://travis-ci.com/ventoji/
+ventoji-components.svg?branch=master)](https://travis-ci.com/ventoji/
+ventoji-components)
 
 ## Install
 ```
-npm install reusable-components
+npm install ventoji-components
 ```
 
 ## Docs
-[Component documentation](https://app.netlify.com/sites/objective-jang-fd103f/overview)
+[Component documentation](https://app.netlify.com/sites/objective-jang-fd103f)
 

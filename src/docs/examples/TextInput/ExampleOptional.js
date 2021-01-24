@@ -1,5 +1,5 @@
 import React from 'react';
-import TextInput from 'reusable-components/TextInput';
+import TextInput from 'ventoji-components/TextInput';
 
 /** Optional TextBox */
 export default class ExampleOptional extends React.Component {

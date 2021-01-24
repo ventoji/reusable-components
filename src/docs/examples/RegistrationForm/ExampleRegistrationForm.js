@@ -1,5 +1,5 @@
 import React from 'react';
-import RegistrationForm from 'reusable-components/RegistrationForm';
+import RegistrationForm from 'ventoji-components/RegistrationForm';
 
 export default class ExampleRegistrationForm extends React.Component {
   onSubmit = (user) => {

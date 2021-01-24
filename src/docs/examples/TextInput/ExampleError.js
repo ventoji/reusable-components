@@ -1,5 +1,5 @@
 import React from 'react';
-import TextInput from 'reusable-components/TextInput';
+import TextInput from 'ventoji-components/TextInput';
 
 /** Required TextBox with error */
 export default class ExampleError extends React.Component {

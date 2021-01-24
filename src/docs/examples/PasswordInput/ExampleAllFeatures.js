@@ -1,5 +1,5 @@
 import React from 'react';
-import PasswordInput from 'reusable-components/PasswordInput';
+import PasswordInput from 'ventoji-components/PasswordInput';
 
 /** All features enabled */
 class ExampleAllFeatures extends React.Component {

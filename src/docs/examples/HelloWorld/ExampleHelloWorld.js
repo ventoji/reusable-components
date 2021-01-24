@@ -1,5 +1,5 @@
 import React from 'react';
-import HelloWorld from 'reusable-components/HelloWorld';
+import HelloWorld from 'ventoji-components/HelloWorld';
 
 /** Custom message */
 export default function ExampleHelloWorld() {
