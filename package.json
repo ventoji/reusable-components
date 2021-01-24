@@ -1,7 +1,8 @@
 {
-  "name": "ventoji-components",
+  "name": "ventoji-components-build-template",
   "version": "0.1.0",
   "main": "./lib/index.js",
+  "private": true,
   "engines": {
     "node": ">=4.0.0"
   },
@@ -117,7 +118,8 @@
     "test": "node scripts/test.js  --env=jsdom",
     "build:css": "cpx \"./src/components/**/*.css\" ./lib",
     "prebuild:lib": "rimraf lib",
-    "build:lib": "npm-run-all --parallel build:commonjs build:css",
+    "build:lib": "npm-run-all --parallel build:commonjs build:css build:copy-files",
+    "build:copy-files": "node scripts/copyBuildFiles.js",
     "predeploy:docs": "yarn build:docs",
     "deploy:docs": "gh-pages -b master -d build",
     "build:commonjs": "cross-env NODE_ENV=production babel ./src/components --out-dir ./lib --ignore spec.js",
