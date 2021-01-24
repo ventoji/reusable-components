@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.com/ventoji/
-ventoji-components.svg?branch=master)](https://travis-ci.com/ventoji/
-ventoji-components)
+[![Build Status](https://travis-ci.com/ventoji/reusable-components.svg?branch=master)](https://travis-ci.com/ventoji/reusable-components)
 
 ## Install
 ```
