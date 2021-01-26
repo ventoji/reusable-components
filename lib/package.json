@@ -5,7 +5,7 @@
     "email": "vento.ji@gmail.com",
     "url": "http://www.ventoji.es/"
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "./index.js",
   "keywords": [
     "components",
@@ -19,7 +19,6 @@
   "dependencies": {
     "styled-components": "^5.2.1",
     "react-dom": "^17.0.1",
-    "react": "^17.0.1",
-    "highlight.js": "^10.5.0"
+    "react": "^17.0.1"
   }
 }
