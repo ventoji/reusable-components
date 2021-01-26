@@ -26,7 +26,11 @@ After changes `run npm release` to automatically increase the control of version
 ### Publish version of the Lib
 First execute `npm run build:lib` to generate the components files to be published.
 
-Go inside lib folder and execute `npm publish` in order to push all the changes to npm repository.
+Go inside lib folder and execute `npm publish` in order to push all the changes to [npm repository](https://www.npmjs.com/package/ventoji-components).
+
+## Deploy
+Every time a change is merge to the master, the documentation is deploy automatically in Netlify. This button shows the status of the deployment.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/efafbf28-ff8a-4136-9306-72618d925f7c/deploy-status)](https://app.netlify.com/sites/objective-jang-fd103f/deploys)
 
 ## Requirements
 
