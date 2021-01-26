@@ -9,19 +9,30 @@ class PasswordInput extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      showPassword: false
-    }
+      showPassword: false,
+    };
   }
 
-  toggleShowPassword = event => {
-    this.setState(prevState => {
+  toggleShowPassword = (event) => {
+    this.setState((prevState) => {
       return { showPassword: !prevState.showPassword };
     });
     if (event) event.preventDefault();
-  }
+  };
 
   render() {
-    const { htmlId, value, label, error, onChange, placeholder, maxLength, showVisibilityToggle, quality, ...props } = this.props;
+    const {
+      htmlId,
+      value,
+      label,
+      error,
+      onChange,
+      placeholder,
+      maxLength,
+      showVisibilityToggle,
+      quality,
+      ...props
+    } = this.props;
     const { showPassword } = this.state;
 
     return (
@@ -35,18 +46,16 @@ class PasswordInput extends React.Component {
         maxLength={maxLength}
         error={error}
         required
-        {...props}>
-        {
-          showVisibilityToggle &&
-          <span
-            onClick={this.toggleShowPassword}
-            style={{ marginLeft: 5 }}>
+        {...props}
+      >
+        {showVisibilityToggle && (
+          <span onClick={this.toggleShowPassword} style={{ marginLeft: 5 }}>
             <EyeIcon />
           </span>
-        }
-        {
-          value.length > 0 && quality && <ProgressBar percent={quality} width={130} />
-        }
+        )}
+        {value.length > 0 && quality && (
+          <ProgressBar percent={quality} width={130} />
+        )}
       </TextInput>
     );
   }
@@ -81,13 +90,13 @@ PasswordInput.propTypes = {
   quality: PropTypes.number,
 
   /** Validation error to display */
-  error: PropTypes.string
+  error: PropTypes.string,
 };
 
 PasswordInput.defaultProps = {
   maxLength: 50,
   showVisibilityToggle: false,
-  label: 'Password'
+  label: 'Password',
 };
 
 export default PasswordInput;

@@ -1,0 +1,17 @@
+{
+    "reject":[
+        "webpack",
+        "webpack-dev-server",
+        "workbox-webpack-plugin",
+        "webpack-manifest-plugin",
+        "terser-webpack-plugin",
+        "mini-css-extract-plugin",
+        "css-loader",
+        "sass-loader",
+        "style-loader",
+        "postcss-flexbugs-fixes",
+        "postcss-loader",
+        "postcss-normalize",
+        "web-vitals"
+    ]
+}

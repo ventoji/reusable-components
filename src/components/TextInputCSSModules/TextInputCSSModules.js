@@ -4,7 +4,19 @@ import Label from '../Label';
 import styles from './textInput.css';
 
 /** Text input with integrated label to enforce consistency in layout, error display, label placement, and required field marker. */
-function TextInput({htmlId, name, label, type = "text", required = false, onChange, placeholder, value, error, children, ...props}) {
+function TextInput({
+  htmlId,
+  name,
+  label,
+  type = 'text',
+  required = false,
+  onChange,
+  placeholder,
+  value,
+  error,
+  children,
+  ...props
+}) {
   return (
     <div className={styles.fieldset}>
       <Label htmlFor={htmlId} label={label} required={required} />
@@ -16,12 +28,13 @@ function TextInput({htmlId, name, label, type = "text", required = false, onChan
         value={value}
         onChange={onChange}
         className={error && styles.inputError}
-        {...props}/>
-        {children}
+        {...props}
+      />
+      {children}
       {error && <div className={styles.error}>{error}</div>}
     </div>
   );
-};
+}
 
 TextInput.propTypes = {
   /** Unique HTML ID. Used for tying label to HTML input. Handy hook for automated testing. */
@@ -52,7 +65,7 @@ TextInput.propTypes = {
   error: PropTypes.string,
 
   /** Child component to display next to the input */
-  children: PropTypes.node
+  children: PropTypes.node,
 };
 
 export default TextInput;
