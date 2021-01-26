@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.com/ventoji/reusable-components.svg?branch=master)](https://travis-ci.com/ventoji/reusable-components)
+
+[![Build Status](https://travis-ci.com/react-ventoji-components/ventoji-components.svg?branch=master)](https://travis-ci.com/react-ventoji-components/ventoji-components)
 
 ## Install
 ```

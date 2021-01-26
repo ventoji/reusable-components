@@ -133,7 +133,7 @@
     "deploy:docs": "gh-pages -b master -d build",
     "build:commonjs": "cross-env NODE_ENV=production babel ./src/components --out-dir ./lib --ignore spec.js",
     "commonjs": "cross-env NODE_ENV=production babel --plugins @babel/plugin-transform-modules-commonjs src/components/PasswordInput/PasswordInput.js",
-    "prepublish": "yarn build:lib",
+    "prepublish": "npm run build:lib",
     "ncu": "ncu",
     "ncu:update": "ncu -u",
     "lint": "eslint src/**/*.{js,jsx}",
@@ -155,12 +155,10 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
     ],
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   }
 }
