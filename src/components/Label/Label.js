@@ -21,4 +21,9 @@ Label.propTypes = {
   required: PropTypes.bool,
 };
 
+Label.defaultProps = {
+  htmlFor: 'labelID',
+  label: 'label',
+};
+
 export default Label;

@@ -1,0 +1,36 @@
+<!--- Label.stories.mdx -->
+
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+import Label from '../components/Label/index';
+
+<Meta title="React Library/Forms Elements/Label" component={Label} />
+
+# Label
+
+Label describes when a field in a form is required or not. If it is required a 
+red asterisk is added.
+
+<!--- This is your Story template function, shown here in React -->
+
+export const Template = (args) => <Label {...args} />
+
+<Canvas>
+  <Story name="Optional Field" args={{ 
+      htmlFor: 'label',
+      label: 'optional field'
+    }}>
+    {Template.bind({})}
+   </Story>
+  <Story name="Required Field" args={{ 
+      htmlFor: 'label', 
+      label: 'required field',
+      required: true
+    }}>
+    {Template.bind({})}
+   </Story>
+</Canvas>
+
+# Parameters 
+
+<ArgsTable of={Label} />
+

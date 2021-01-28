@@ -1,6 +1,8 @@
 
 [![Build Status](https://travis-ci.com/react-ventoji-components/ventoji-components.svg?branch=master)](https://travis-ci.com/react-ventoji-components/ventoji-components)
 
+![Coveralls github](https://img.shields.io/coveralls/github/ventoji/react-ventoji-components/ventoji-components)
+
 ## Install
 ```
 npm install ventoji-components
