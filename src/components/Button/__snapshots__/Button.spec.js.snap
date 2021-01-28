@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component Should be button type 1`] = `
+<styled.button
+  backgroundColor="DFDFDF"
+  color="black"
+  fontSize="12px"
+  onClick={[Function]}
+  type="button"
+>
+  button test
+</styled.button>
+`;
+
+exports[`Button component Should be submit type 1`] = `
+<styled.button
+  backgroundColor="DFDFDF"
+  color="black"
+  fontSize="12px"
+  onClick={[Function]}
+  type="submit"
+>
+  button test
+</styled.button>
+`;
+
+exports[`Button component Should render correctly large size button 1`] = `
+.c0 {
+  color: black;
+  font-size: 16px;
+  background-color: DFDFDF;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+<button
+  className="c0"
+  color="black"
+  fontSize="16px"
+  onClick={[Function]}
+  type="button"
+>
+  click
+</button>
+`;
+
+exports[`Button component Should render correctly medium size button 1`] = `
+.c0 {
+  color: black;
+  font-size: 14px;
+  background-color: DFDFDF;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+<button
+  className="c0"
+  color="black"
+  fontSize="14px"
+  onClick={[Function]}
+  type="button"
+>
+  click
+</button>
+`;
+
+exports[`Button component Should render correctly small size button 1`] = `
+.c0 {
+  color: black;
+  font-size: 12px;
+  background-color: DFDFDF;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+<button
+  className="c0"
+  color="black"
+  fontSize="12px"
+  onClick={[Function]}
+  type="button"
+>
+  click
+</button>
+`;

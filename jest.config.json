@@ -4,7 +4,9 @@
   ],
   "collectCoverageFrom": [
     "src/**/*.{js,jsx,ts,tsx}",
-    "!src/**/*.d.ts"
+    "!src/**/*.d.ts",
+    "!<rootDir>/node_modules/",
+    "!src/**/stories/*"
   ],
   "setupFiles": [
     "react-app-polyfill/jsdom"
@@ -30,7 +32,8 @@
   "modulePaths": [],
   "moduleNameMapper": {
     "^react-native$": "react-native-web",
-    "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy"
+    "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy",
+    "^styled-components": "<rootDir>/node_modules/styled-components"
   },
   "moduleFileExtensions": [
     "web.js",
@@ -48,6 +51,20 @@
     "jest-watch-typeahead/filename",
     "jest-watch-typeahead/testname"
   ],
-  "resetMocks": true
+  "resetMocks": true,
+  "snapshotSerializers": [
+    "enzyme-to-json/serializer"
+  ],
+  "coverageThreshold": {
+    "global": {
+      "lines": 90,
+      "statements": 90
+    }
+  },
+  "coverageReporters": [
+    "json-summary", 
+    "text",
+    "lcov"
+  ]
 }
   

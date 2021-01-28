@@ -69,7 +69,7 @@ PasswordInput.propTypes = {
   name: PropTypes.string.isRequired,
 
   /** Password value */
-  value: PropTypes.any,
+  value: PropTypes.string,
 
   /** Input label */
   label: PropTypes.string,

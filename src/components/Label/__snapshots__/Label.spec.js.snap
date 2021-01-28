@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label Component Should render label with a red asterisk when field is required 1`] = `
+<label
+  htmlFor="labelElement"
+  style={
+    Object {
+      "display": "block",
+    }
+  }
+>
+  field label
+   
+  <span
+    style={
+      Object {
+        "color": "red",
+      }
+    }
+  >
+     *
+  </span>
+</label>
+`;
+
+exports[`Label Component Should render properly 1`] = `
+<label
+  htmlFor="labelElement"
+  style={
+    Object {
+      "display": "block",
+    }
+  }
+>
+  field label
+   
+</label>
+`;
