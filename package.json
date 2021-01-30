@@ -146,7 +146,6 @@
     "build:lib": "npm-run-all --parallel build:commonjs build:css build:copy-files",
     "build:copy-files": "node scripts/copyBuildFiles.js",
     "predeploy:docs": "npm run build:docs",
-    "deploy:docs": "gh-pages -b master -d build",
     "build:commonjs": "cross-env NODE_ENV=production babel ./src/components --out-dir ./lib --ignore spec.js",
     "commonjs": "cross-env NODE_ENV=production babel --plugins @babel/plugin-transform-modules-commonjs src/components/PasswordInput/PasswordInput.js",
     "prepublish": "npm run build:lib",
