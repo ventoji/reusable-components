@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.2](https://github.com/ventoji/ventoji-components/compare/v1.3.1...v1.3.2) (2021-01-30)
+
+
+### Bug Fixes
+
+* deplying storybook on gh-pages ([87ce12c](https://github.com/ventoji/ventoji-components/commit/87ce12cc91c3574b20f3c7553f8b4329490e9170))
+
 ### [1.3.1](https://github.com/ventoji/ventoji-components/compare/v1.3.0...v1.3.1) (2021-01-28)
 
 
