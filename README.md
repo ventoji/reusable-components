@@ -1,7 +1,7 @@
 
 [![Build Status](https://travis-ci.com/react-ventoji-components/ventoji-components.svg?branch=master)](https://travis-ci.com/react-ventoji-components/ventoji-components)
 
-![Coveralls github](https://img.shields.io/coveralls/github/ventoji/react-ventoji-components/ventoji-components)
+[![codecov](https://codecov.io/gh/react-ventoji-components/ventoji-components/branch/master/graph/badge.svg?token=g0MOUrH8oZ)](https://codecov.io/gh/react-ventoji-components/ventoji-components)
 
 ## Install
 ```
