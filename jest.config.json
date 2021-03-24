@@ -8,6 +8,7 @@
     "!<rootDir>/node_modules/",
     "!src/**/stories/*"
   ],
+  "collectCoverage": true,
   "setupFiles": [
     "react-app-polyfill/jsdom"
   ],
