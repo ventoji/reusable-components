@@ -29,15 +29,13 @@ jobs:
         uses: actions/checkout@v2.3.1
 
       # Runs a single command using the runners shell
-      # - name: Run a one-line script
-      #  run: echo Hello, world!
-      - name: Install
-        run: npm install
+      - name: Run a one-line script
+        run: echo Running, Jobs!
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          echo Add other actions to build,
+          echo Just testing multiline,
           echo test, and deploy your project.
   lint:
     needs: install
@@ -64,7 +62,9 @@ jobs:
     steps:
      - uses: actions/checkout@v2.3.1
      - name: build
-       run: npm run build-storybook
+       run: |
+         npm install
+         npm run build-storybook
   deploy:
     needs: build
     runs-on: ubuntu-latest
