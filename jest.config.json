@@ -3,7 +3,10 @@
     "<rootDir>/src"
   ],
   "collectCoverageFrom": [
+    "!src/**/index.js",
     "src/**/*.{js,jsx,ts,tsx}",
+    "src/store/*.{js}",
+    "src/utils/*.{js}",
     "!src/**/*.d.ts",
     "!<rootDir>/node_modules/",
     "!src/**/stories/*"
