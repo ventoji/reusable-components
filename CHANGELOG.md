@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.4](https://github.com/ventoji/ventoji-components/compare/v1.3.2...v1.3.4) (2021-03-25)
+
+
+### Bug Fixes
+
+* coverage test ([c7ef0f4](https://github.com/ventoji/ventoji-components/commit/c7ef0f445e15b8d405f01e4a5f79f4d6b18e38c6))
+* fix docs stroybook ([79e36d7](https://github.com/ventoji/ventoji-components/commit/79e36d7419c29c0b3e6a58b492942d3d14f4fadb))
+* migrating husky dependency from 4 to 5 ([3706a1a](https://github.com/ventoji/ventoji-components/commit/3706a1a18f8e7ff0a0c09d2187675d3c015b0b51))
+* migrating husky dependency from 4 to 5 ([091e733](https://github.com/ventoji/ventoji-components/commit/091e7339fb5bfdf57969d956cf5e3a250892a610))
+
 ### [1.3.3](https://github.com/ventoji/ventoji-components/compare/v1.3.2...v1.3.3) (2021-03-24)
 
 
