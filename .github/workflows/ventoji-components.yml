@@ -48,6 +48,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
   lint:
+    needs: build-and-deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
@@ -56,6 +57,7 @@ jobs:
          npm ci
          npm run lint
   test:
+    needs: lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
