@@ -1,7 +1,7 @@
 
 // import 'core-js/modules/es.symbol.js';
 //import 'core-js/modules/es6.symbol.js'; // added
-import 'core-js/modules/es.symbol';
+// import 'core-js/modules/es.symbol';
 //import {withInfo} from '@storybook/addon-info';
 import { withKnobs} from '@storybook/addon-knobs';
 export const parameters = {

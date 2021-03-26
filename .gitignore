@@ -131,3 +131,6 @@ yarn-error.log*
 
 # Local Netlify folder
 .netlify
+
+# testing lib build
+/config/webpack.lib.js
