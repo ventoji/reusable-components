@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.6](https://github.com/ventoji/ventoji-components/compare/v1.3.2...v1.3.6) (2021-03-26)
+
+
+### Bug Fixes
+
+* building storybook in ci ([c9b59ac](https://github.com/ventoji/ventoji-components/commit/c9b59ac07756b1dec67de210d4fd971a582e480a))
+* coverage test ([c7ef0f4](https://github.com/ventoji/ventoji-components/commit/c7ef0f445e15b8d405f01e4a5f79f4d6b18e38c6))
+* fix docs stroybook ([79e36d7](https://github.com/ventoji/ventoji-components/commit/79e36d7419c29c0b3e6a58b492942d3d14f4fadb))
+* fixing script to publish lib component properly ([3232f1f](https://github.com/ventoji/ventoji-components/commit/3232f1f771f23c801b750bdd042e5d14c4041919))
+* migrating husky dependency from 4 to 5 ([1beda2a](https://github.com/ventoji/ventoji-components/commit/1beda2ad6d627d0cbb590c96dd4591dfcaee17c7))
+* updating eslint rules ([f813734](https://github.com/ventoji/ventoji-components/commit/f813734394131d6bfb6ff1417989c13b303b75a9))
+
 ### [1.3.5](https://github.com/ventoji/ventoji-components/compare/v1.3.2...v1.3.5) (2021-03-25)
 
 
