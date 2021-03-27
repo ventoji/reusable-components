@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.7](https://github.com/ventoji/ventoji-components/compare/v1.3.6...v1.3.7) (2021-03-27)
+
+
+### Bug Fixes
+
+* publishing lib in the rigth way ([1efe245](https://github.com/ventoji/ventoji-components/commit/1efe2456970777b108c0c83d3b1b6380101eab44))
+
 ### [1.3.6](https://github.com/ventoji/ventoji-components/compare/v1.3.2...v1.3.6) (2021-03-26)
 
 

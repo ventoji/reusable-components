@@ -23,10 +23,14 @@ if (enableWatchMode) {
 
 function generate(paths) {
   var errors = [];
+
+  console.log('paths',paths);
   var componentData = getDirectories(paths.components).map(function(componentName) {
     try {
       return getComponentData(paths, componentName);
     } catch(error) {
+      // console.log('component name with error',componentName);
+      // console.log(error);
       errors.push('An error occurred while attempting to generate metadata for ' + componentName + '. ' + error);
     }
   });
@@ -34,6 +38,7 @@ function generate(paths) {
 }
 
 function getComponentData(paths, componentName) {
+  console.log('component generated',componentName);
   var content = readFile(path.join(paths.components, componentName, componentName + '.js'));
   var info = parse(content);
   return {
